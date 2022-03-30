@@ -1,0 +1,73 @@
+.social-proof {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-proof__top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-proof__text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 445px;
+}
+
+.social-proof__header {
+  font-size: var(--fs-big);
+  color: var(--clr-purple);
+  font-weight: 700;
+  letter-spacing: -1.71px;
+  line-height: 1;
+}
+
+.social-proof__text {
+  font-size: var(--fs-base);
+  color: var(--clr-light-purple);
+  font-weight: 500;
+  margin-top: 6px;
+  line-height: 1.6;
+}
+
+.social-proof__rating-container {
+  max-width: 540px;
+  width: 100%;
+}
+.social-proof__rating-list {
+  max-width: 540px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social-proof__card_buyer-container {
+  display: flex;
+}
+
+.social-proof__buyer-title {
+  display: block;
+}
+
+/* //////////// */
+
+.background__image-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.background__image-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}

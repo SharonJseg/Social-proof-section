@@ -1,0 +1,36 @@
+.social-proof__card {
+  background-color: var(--clr-purple);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+
+.social-proof__card_buyer-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-proof__buyer-image {
+  max-width: 40px;
+  border-radius: 50%;
+  margin-right: 23px;
+}
+.social-proof__buyer-name {
+  font-weight: 700;
+  color: #fff;
+}
+
+.social-proof__buyer-title {
+  font-weight: 400;
+  color: var(--clr-pink);
+  margin-top: 5px;
+}
+
+.social-proof__card-text {
+  color: #fff;
+  max-width: 286px;
+  letter-spacing: -0.23;
+  line-height: 1.7;
+  margin-top: 26px;
+}

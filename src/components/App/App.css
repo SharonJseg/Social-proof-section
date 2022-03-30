@@ -1,55 +1,5 @@
 .page {
-  /* text-align: center; */
   min-height: 100vh;
   display: flex;
-}
-
-.social-proof {
-  max-width: 1110px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.social-proof__top-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.social-proof__text-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 445px;
-}
-
-.social-proof__rating-list {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
-
-.social-proof__rating-item {
-  display: flex;
-}
-
-.social-proof__stars {
-  display: flex;
-  list-style: none;
-}
-
-/* ///////// */
-
-.social-proof__cards {
-  display: flex;
-  list-style: none;
-}
-
-.social-proof__card_buyer-container {
-  display: flex;
-}
-
-.social-proof__buyer-title {
-  display: block;
+  position: relative;
 }

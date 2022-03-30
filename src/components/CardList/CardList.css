@@ -1,0 +1,18 @@
+.social-proof__card-container {
+  max-height: 266px;
+}
+.social-proof__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 72px;
+  height: 100%;
+}
+
+.social-proof__cards li:first-of-type {
+  align-self: baseline;
+}
+.social-proof__cards li:last-of-type {
+  align-self: flex-end;
+}
