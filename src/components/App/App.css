@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page {
+  /* text-align: center; */
   min-height: 100vh;
   display: flex;
+}
+
+.social-proof {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.social-proof__top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-proof__text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 445px;
+}
+
+.social-proof__rating-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.social-proof__rating-item {
+  display: flex;
+}
+
+.social-proof__stars {
+  display: flex;
+  list-style: none;
+}
+
+/* ///////// */
+
+.social-proof__cards {
+  display: flex;
+  list-style: none;
+}
+
+.social-proof__card_buyer-container {
+  display: flex;
+}
+
+.social-proof__buyer-title {
+  display: block;
 }
