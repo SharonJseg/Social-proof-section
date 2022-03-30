@@ -10,7 +10,7 @@
   margin-bottom: 16px;
 }
 .social-proof__cards li:last-of-type {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 @media screen and (max-width: 768px) {
