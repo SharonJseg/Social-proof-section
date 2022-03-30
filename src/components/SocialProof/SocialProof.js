@@ -1,7 +1,6 @@
 import React from 'react';
 import './SocialProof.css';
 import { RATING } from '../../utils/constants';
-
 import SocialProofStarItem from '../SocialProofStarItem/SocialProofStarItem';
 import CardList from '../CardList/CardList';
 
@@ -24,9 +23,6 @@ function SocialProof() {
             {RATING.map((item, index) => (
               <SocialProofStarItem rating={item} key={index} />
             ))}
-
-            {/* <SocialProofStarItem />
-            <SocialProofStarItem /> */}
           </ul>
         </div>
       </div>

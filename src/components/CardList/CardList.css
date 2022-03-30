@@ -1,6 +1,3 @@
-.social-proof__card-container {
-  max-height: 266px;
-}
 .social-proof__cards {
   display: flex;
   align-items: center;
@@ -15,4 +12,18 @@
 }
 .social-proof__cards li:last-of-type {
   align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .social-proof__cards {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .social-proof__cards {
+    margin-top: 49px;
+    padding-bottom: 99px;
+    row-gap: 16px;
+  }
 }

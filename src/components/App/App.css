@@ -3,3 +3,9 @@
   display: flex;
   position: relative;
 }
+
+@media screen and (max-width: 425px) {
+  .page {
+    align-items: flex-start;
+  }
+}
