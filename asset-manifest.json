@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/social-proof-section/static/css/main.9c538dc1.css",
+    "main.css": "/social-proof-section/static/css/main.5f4bc430.css",
     "main.js": "/social-proof-section/static/js/main.a757d56c.js",
     "static/media/Spartan-Regular.woff": "/social-proof-section/static/media/Spartan-Regular.6a510b060564d13ae6e6.woff",
     "static/media/Spartan-Bold.woff": "/social-proof-section/static/media/Spartan-Bold.8c1945301235ab514172.woff",
@@ -14,11 +14,11 @@
     "static/media/bg-pattern-top-desktop.svg": "/social-proof-section/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e69daf021a2d81.svg",
     "static/media/bg-pattern-top-mobile.svg": "/social-proof-section/static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
     "static/media/icon-star.svg": "/social-proof-section/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
-    "main.9c538dc1.css.map": "/social-proof-section/static/css/main.9c538dc1.css.map",
+    "main.5f4bc430.css.map": "/social-proof-section/static/css/main.5f4bc430.css.map",
     "main.a757d56c.js.map": "/social-proof-section/static/js/main.a757d56c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c538dc1.css",
+    "static/css/main.5f4bc430.css",
     "static/js/main.a757d56c.js"
   ]
 }
