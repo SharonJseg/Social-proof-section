@@ -4,19 +4,26 @@
   justify-content: space-between;
   list-style: none;
   margin-top: 72px;
-  height: 100%;
 }
 
 .social-proof__cards li:first-of-type {
-  align-self: baseline;
+  margin-bottom: 16px;
 }
 .social-proof__cards li:last-of-type {
-  align-self: flex-end;
+  margin-top: 32px;
 }
 
 @media screen and (max-width: 768px) {
   .social-proof__cards {
     flex-direction: column;
+    gap: 16px;
+  }
+
+  .social-proof__cards li:first-of-type {
+    margin-bottom: 0px;
+  }
+  .social-proof__cards li:last-of-type {
+    margin-top: 0px;
   }
 }
 
