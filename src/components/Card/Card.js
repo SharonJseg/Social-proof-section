@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Card.css';
 
-function Card({ card }) {
+const Card = ({ card }) => {
   return (
     <li>
       <aside className='social-proof__card'>
@@ -21,6 +21,6 @@ function Card({ card }) {
       </aside>
     </li>
   );
-}
+};
 
 export default Card;

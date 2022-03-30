@@ -4,7 +4,7 @@ import { RATING } from '../../utils/constants';
 import SocialProofStarItem from '../SocialProofStarItem/SocialProofStarItem';
 import CardList from '../CardList/CardList';
 
-function SocialProof() {
+const SocialProof = () => {
   return (
     <section className='social-proof'>
       <div className='social-proof__top-wrapper'>
@@ -29,6 +29,6 @@ function SocialProof() {
       <CardList />
     </section>
   );
-}
+};
 
 export default SocialProof;

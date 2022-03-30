@@ -2,7 +2,7 @@ import React from 'react';
 import './SocialProofStarItem.css';
 import starIcon from '../../images/icon-star.svg';
 
-function SocialProofStarItem({ rating }) {
+const SocialProofStarItem = ({ rating }) => {
   return (
     <li className='social-proof__rating-item'>
       <div className='social-proof__stars-container'>
@@ -47,6 +47,6 @@ function SocialProofStarItem({ rating }) {
       <p className='social-proof__rating-item_text'>{rating.text}</p>
     </li>
   );
-}
+};
 
 export default SocialProofStarItem;

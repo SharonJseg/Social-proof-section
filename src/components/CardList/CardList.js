@@ -4,7 +4,7 @@ import { CARDS } from '../../utils/constants';
 
 import './CardList.css';
 
-function CardList() {
+const CardList = () => {
   return (
     <div className='social-proof__card-container'>
       <ul className='social-proof__cards'>
@@ -14,6 +14,6 @@ function CardList() {
       </ul>
     </div>
   );
-}
+};
 
 export default CardList;
